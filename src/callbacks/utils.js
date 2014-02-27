@@ -9,11 +9,13 @@ Callbacks.Utils = {
 			}
 
 			this.prototype.callbacks[name].push(method);
+
+			return this;
 		}
 	},
 
 	prototype: {
-		callbacks: {},
+		callbacks: null,
 
 		initCallbacks: function initCallbacks(types) {
 			if (!this.hasOwnProperty("callbacks")) {
