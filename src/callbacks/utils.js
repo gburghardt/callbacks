@@ -1,6 +1,8 @@
 Callbacks.Utils = {
 	self: {
 		addCallback: function addCallback(name, method) {
+			this.prototype.callbacks = this.prototype.callbacks || {};
+
 			if (!this.prototype.callbacks[name]) {
 				this.prototype.callbacks[name] = [];
 			}
