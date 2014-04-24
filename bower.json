@@ -1,7 +1,7 @@
 {
     "name": "callbacks",
     "description": "Easy callbacks allowing parent and child classes to interact in a decoupled manor.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/gburghardt/callbacks",
     "authors": [
         "Greg Burghardt <greg_burghardt@yahoo.com>"
